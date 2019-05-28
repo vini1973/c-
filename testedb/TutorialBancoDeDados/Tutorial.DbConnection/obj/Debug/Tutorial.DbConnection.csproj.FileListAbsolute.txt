@@ -1,0 +1,24 @@
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.dll
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.pdb
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Smart.Database.dll
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.csprojResolveAssemblyReference.cache
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.dll
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.dll
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Smart.Database.dll
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.csprojResolveAssemblyReference.cache
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.dll
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.pdb
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.dll
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.pdb
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Smart.Database.dll
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.csprojResolveAssemblyReference.cache
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.dll
+\\cpu-443a\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.pdb
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.dll
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Tutorial.DbConnection.pdb
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\bin\Debug\Smart.Database.dll
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.csprojResolveAssemblyReference.cache
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.dll
+D:\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.DbConnection\obj\Debug\Tutorial.DbConnection.pdb

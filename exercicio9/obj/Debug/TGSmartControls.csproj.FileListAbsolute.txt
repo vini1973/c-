@@ -1,0 +1,9 @@
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\obj\Debug\TGSmartControls.csprojResolveAssemblyReference.cache
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\TGSmartControls.dll
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\TGSmartControls.pdb
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\Smart.Database.dll
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\Smart.Model.dll
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\Smart.Database.pdb
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\bin\Debug\Smart.Model.pdb
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\obj\Debug\TGSmartControls.dll
+D:\TFSSC\Konqueror\SmartFramework\MAIN\TGSmartControls\obj\Debug\TGSmartControls.pdb

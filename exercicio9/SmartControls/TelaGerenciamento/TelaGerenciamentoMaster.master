@@ -1,0 +1,54 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TelaGerenciamentoMaster.master.cs"
+	Inherits="SmartShare.Web.TelaPadrao.Gerenciamento.TelaGerenciamentoBase" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Untitled Page</title>
+	<link href="../Styles/telaPadrao.css" rel="stylesheet" type="text/css" />
+	<link href="../Styles/telaGerenciamento.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" language="javascript">
+		function __ToggleSearchDisplay()
+		{
+			var obj = $get("divFormBusca");
+			if(obj.style.display == "")
+			{
+				obj.style.display = "none";
+				$get("divAbaBuscar").className = "abaBuscarInativo";		
+			}
+			else
+			{
+				obj.style.display = "";
+				$get("divAbaBuscar").className = "abaBuscarAtivo";
+			}
+		}
+	</script>
+</head>
+<body>
+	<form id="form2" runat="server">
+		<asp:ScriptManager ID="ScriptManager1" runat="server" />
+		<div class="contemTudo" id="divContemTudo">
+			<div class="abaBuscarInativo" id="divAbaBuscar" onclick="__ToggleSearchDisplay()">
+				Buscar
+			</div>
+			<sshare:header ID="header1" runat="server" />
+			<div class="contemCentro">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				</asp:ContentPlaceHolder>
+			</div>
+			<b class="cantoArredondadoInferiorPrincipal">
+				<b class="canto5"><b></b></b>
+				<b class="canto4"><b></b></b>
+				<b class="canto3"></b>
+				<b class="canto2"></b>
+				<b class="canto1"></b>
+			</b>
+		</div>
+		<asp:UpdatePanel ID="UpdatePanel1" runat="server">
+			<ContentTemplate>
+				<input id="hidIds" name="hidIds" type="hidden" value='<%= this.StrRegistrosSelecionados %>' />
+			</ContentTemplate>
+		</asp:UpdatePanel>
+	</form>
+</body>
+</html>

@@ -1,0 +1,141 @@
+	/* ************************************************************************** */
+	/* 	CADASTRO :
+	/* 	- Contém toda a estrutura forms/componentes da tela de cadastros.
+	/* -------------------------------------------------------------------------- */
+	.cadastro {
+		/* */
+	}
+		.cadastro .linhaClara {
+			background-color:														#FFF;
+			padding:																20px 40px;
+		}
+		.cadastro .linhaEscura {
+			background-color:														#F3F3F3;
+			padding:																20px 40px;
+		}
+		.cadastro h1 {
+			margin:																	0px;
+			height:																	20px;
+			border-bottom:															1px solid #999;
+			cursor:																	pointer;
+		}
+		.cadastro h2 {
+			margin:																	0px;
+			font-size:																13px;
+			color:																	#555;
+		}
+		.cadastro .titulo {
+			float:																	left;
+			font-size:																15px;
+			color:																	#555;
+		}
+			.cadastro .titulo span {
+				font-size:															15px;
+				color:																#555;
+			}
+		.cadastro .compl {
+			float:																	right;
+			font-size:																11px;
+			color:																	#063;
+		}
+		.cadastro .conteudo {
+			margin:																	0px 20px;
+			padding:																10px 0px 0px;
+			
+		}
+			.cadastro .conteudo table {
+				clear:																left;
+			}
+
+			.cadastro .conteudo td.espacamento {
+				padding:															3px 0px;
+				font-size:															0px;
+			}
+			.cadastro .conteudo span .checkbox {
+				padding:															3px 0px;
+				font-size:															0px;
+				border:																none;
+				background-color:													transparent;
+				margin-bottom:														0px;
+			}
+			.cadastro .conteudo h4 {
+				font-size:															13px;
+				font-weight:														bold;
+				color:																#063;
+				margin:																0px;
+				display:															inline;
+				vertical-align:														-1px;
+			}
+			.cadastro .conteudo .cabecalhoInfoVenda {
+				width:																100%;
+				float:																left;
+				clear:																right;
+				margin:																0px;
+				display:															inline;
+				padding:															0px;
+			}
+				.cadastro .conteudo .cabecalhoInfoVenda span {
+					float:															left;
+				}
+				.cadastro .conteudo .cabecalhoInfoVenda h4 {
+					float:															right;
+				}
+				.cadastro .conteudo .cabecalhoInfoVenda .td01 { 
+					border-bottom:													1px solid #CCC;
+					float:															left;
+					width:															312px;
+					padding-bottom:													5px; 
+				}
+				.cadastro .conteudo .cabecalhoInfoVenda .td02 { 
+					float:															right;
+					width:															310px;
+					padding-bottom:													5px;
+				}
+				.cadastro .conteudo .cabecalhoInfoVenda .td03 { 
+					border-bottom:													1px solid #CCC;
+					float:															left;
+					width:															100%;
+					padding-bottom:													5px; 
+				}
+					.cadastro .conteudo .cabecalhoInfoVenda .td02 .tr01 { 
+						border-bottom:												1px solid #CCC;
+						float:														left;
+						width:														139px;
+						padding-bottom:												5px; 
+					}
+					.cadastro .conteudo .cabecalhoInfoVenda .td02 .tr02 { 
+						border-bottom:												1px solid #CCC;
+						float:														right;
+						width:														139px;
+						padding-bottom:												5px; 
+					}
+			 .cadastro .conteudo .complemento {
+				float:																left;
+				width:																100%;
+				color:																#555;
+			}
+			.cadastro .conteudo .complemento .contemBotoes {
+				float:																left;
+				width:																2px;
+				padding-bottom:														5px;
+				width:																130px;
+			}
+				.cadastro .conteudo .complemento .contemBotoes .btGrid{
+					margin:															10px 0px 0px 20px;
+					background-color:												transparent;
+					border:															none;				
+				}
+			.cadastro .conteudo .complemento .contemGrid {
+				float:																right;
+				width:																520px;
+			}
+				.cadastro .conteudo .complemento .contemGrid table {
+					width:															100%;
+					background-color:												#E2E2E2;
+				}
+					.cadastro .conteudo .complemento .contemGrid table td {
+						padding:													2px;	
+					}
+					.cadastro .conteudo .complemento .contemGrid table thead {
+						background-color:											#999;
+						color:														#333;

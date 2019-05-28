@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio.BLL", "Exercicio.BLL\Exercicio.BLL.csproj", "{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio.Conexao", "Exercicio.Conexao\Exercicio.Conexao.csproj", "{5E26E4AE-41FA-4622-AD97-D430E89D4A41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio.DAL", "Exercicio.DAL\Exercicio.DAL.csproj", "{4181DD19-2937-4E97-9D12-83AA95EE8B78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio.Model", "Exercicio.Model\Exercicio.Model.csproj", "{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio.View", "Exercicio.View\Exercicio.View.csproj", "{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Exercicio9.Web", "http://localhost:55357", "{0DB9F0BD-E9FC-4930-B8CE-56BCFB11A682}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = "SAK"
+		SccAuxPath = "SAK"
+		SccLocalPath = "SAK"
+		SccProvider = "SAK"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{6589af7d-5cac-4138-81e3-908a8db68bfd}|Exercicio.BLL.dll;{4181DD19-2937-4E97-9D12-83AA95EE8B78}|Exercicio.DAL.dll;{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}|Exercicio.Model.dll;{5e26e4ae-41fa-4622-ad97-d430e89d4a41}|Exercicio.Conexao.dll;{4ad6ceb6-cab0-48a8-8510-15c2b7ab0fbe}|Exercicio.View.dll;{d9f57963-50c7-4ea0-8148-6b749a89b10d}|TelerikReport.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_55357"
+		Debug.AspNetCompiler.PhysicalPath = "Exercicio9.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55357\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_55357"
+		Release.AspNetCompiler.PhysicalPath = "Exercicio9.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_55357\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "Exercicio9.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelerikReport", "TelerikReport\TelerikReport.csproj", "{D9F57963-50C7-4EA0-8148-6B749A89B10D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{71A3F689-4FE8-4669-8B29-36D42E7FDC9D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E26E4AE-41FA-4622-AD97-D430E89D4A41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E26E4AE-41FA-4622-AD97-D430E89D4A41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E26E4AE-41FA-4622-AD97-D430E89D4A41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E26E4AE-41FA-4622-AD97-D430E89D4A41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4181DD19-2937-4E97-9D12-83AA95EE8B78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4181DD19-2937-4E97-9D12-83AA95EE8B78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4181DD19-2937-4E97-9D12-83AA95EE8B78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4181DD19-2937-4E97-9D12-83AA95EE8B78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB9F0BD-E9FC-4930-B8CE-56BCFB11A682}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB9F0BD-E9FC-4930-B8CE-56BCFB11A682}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB9F0BD-E9FC-4930-B8CE-56BCFB11A682}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB9F0BD-E9FC-4930-B8CE-56BCFB11A682}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D9F57963-50C7-4EA0-8148-6B749A89B10D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F57963-50C7-4EA0-8148-6B749A89B10D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F57963-50C7-4EA0-8148-6B749A89B10D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F57963-50C7-4EA0-8148-6B749A89B10D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A3F689-4FE8-4669-8B29-36D42E7FDC9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A3F689-4FE8-4669-8B29-36D42E7FDC9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A3F689-4FE8-4669-8B29-36D42E7FDC9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A3F689-4FE8-4669-8B29-36D42E7FDC9D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

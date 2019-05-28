@@ -1,0 +1,11 @@
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio.Model.pdb
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Smart.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio.Model.pdb
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio.Model.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio.Model.pdb
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Smart.Model.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio.Model.csprojResolveAssemblyReference.cache
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio.Model.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio.Model.pdb

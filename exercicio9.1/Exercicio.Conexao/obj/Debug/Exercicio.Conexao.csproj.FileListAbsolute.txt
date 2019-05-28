@@ -1,0 +1,6 @@
+D:\vinicius\exercicio9.1\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.dll
+D:\vinicius\exercicio9.1\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.pdb
+D:\vinicius\exercicio9.1\Exercicio.Conexao\bin\Debug\Smart.Database.dll
+D:\vinicius\exercicio9.1\Exercicio.Conexao\bin\Debug\Smart.Database.xml
+D:\vinicius\exercicio9.1\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.dll
+D:\vinicius\exercicio9.1\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.pdb

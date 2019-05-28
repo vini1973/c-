@@ -1,0 +1,30 @@
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll.config
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+D:\vinicius\exercicio4\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio4\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio4\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio4\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio4\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\Smart.Database.dll
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\Smart.Database.xml
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\Exercicio3.Camadas.dll
+D:\vinicius\exercicio7\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\Exercicio3.Camadas.pdb

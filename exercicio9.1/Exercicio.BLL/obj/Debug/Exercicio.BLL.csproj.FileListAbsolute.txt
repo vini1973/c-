@@ -1,0 +1,12 @@
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.BLL.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.BLL.pdb
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.DAL.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.Model.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Smart.Database.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Smart.Model.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.DAL.pdb
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Exercicio.Model.pdb
+D:\vinicius\exercicio9.1\Exercicio.BLL\bin\Debug\Smart.Database.xml
+D:\vinicius\exercicio9.1\Exercicio.BLL\obj\Debug\Exercicio.BLL.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio9.1\Exercicio.BLL\obj\Debug\Exercicio.BLL.dll
+D:\vinicius\exercicio9.1\Exercicio.BLL\obj\Debug\Exercicio.BLL.pdb

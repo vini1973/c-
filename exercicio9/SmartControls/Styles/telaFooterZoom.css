@@ -1,0 +1,13 @@
+.contemBase .contemQtdRegistros {
+	text-align:															center;
+	margin:																29px 0px -55px 290px;
+	position:															relative;
+	z-index:															1;
+}
+	.contemBase .contemQtdRegistros p {
+		border:															1px solid;
+		float:															left;
+	}		
+	.contemBase .contemQtdRegistros select {
+		margin:															0px 0px 0px;
+	}

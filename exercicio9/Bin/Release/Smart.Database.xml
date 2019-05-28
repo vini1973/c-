@@ -1,0 +1,333 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Smart.Database</name>
+    </assembly>
+    <members>
+        <member name="T:Smart.Database.DbConn">
+            <summary>
+            Classe de conexão com o banco de dados
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.#ctor(System.String,System.String)">
+            <summary>
+            Inicializa a classe DbConn
+            </summary>
+            <param name="strConnString">String de conexão completa</param>
+            <param name="strProviderName">Namespace do provedor de acesso ao banco. (System.Data.SqlClient, System.Data.OleDb)</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.#ctor">
+            <summary>
+            Inicializa a classe de conexão com o método BuildConnString
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.#ctor(System.Data.Common.DbConnection,System.String)">
+            <summary>
+            Inicializa a DbConn com uma conexão já existente e/ou aberta. Ideal para integrar com outras classes de conexão.
+            </summary>
+            <param name="pConnection">Objeto de conexão</param>
+            <param name="pProviderName">Provider Name do banco</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.DbConn_(System.String)">
+            <summary>
+            "Core" do método construtor
+            </summary>
+            <param name="strConnString">String de conexão com o banco de dados</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.OpenConnection">
+            <summary>
+            Abre a conexão atual
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.CloseConnection">
+            <summary>
+            Fecha a conexão atual
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.FillDataSet(System.String)">
+            <summary>
+            Preenche um dataset com um resultado de uma consulta sql
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <returns>Retorna um DataSet com o resultado da instrução sql</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.FillDataSet(System.String,System.Int32,System.Int32)">
+            <summary>
+            Preenche um Dataset com um resultado de uma consulta sql com paginação
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <param name="intRegistroInicial">Registro inicial da paginação</param>
+            <param name="intNrDeRegistros">Número de registros retornados</param>
+            <returns>Retorna um DataSet com o resultado paginado da instrução sql
+            #DESATUALIZADO#. (Este método não deve mais ser utilizado. Para efetuar paginação, utilizar a classe de tradução de SQL em SmartShare.Database.SQL)
+            </returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.FillDataRow(System.String)">
+            <summary>
+            Preenche um DataRow com o primeiro resultado do SQL. Usado quando há a certeza de que o resultado SQL trará apenas um registro.
+            </summary>
+            <param name="strSql">Instrução SQL a ser executada</param>
+            <returns>Retorna um DataRow contendo o registro do resultado SQL. Retorna null quando não é encontrado nenhum registro.</returns>
+            <remarks>Este método pode ser usado ao invés do ExecuteReader quando há a certeza de que haverá apenas um resultado.
+            A performance é a mesma que o ExecuteReader, mas o retorna é mais fácil de manipular.</remarks>
+        </member>
+        <member name="M:Smart.Database.DbConn.ExecuteReader(System.String)">
+            <summary>
+            Executa uma instrução sql utilizando um DataReader
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <returns>Retorna um dbDataReader com o resultado da instrução sql</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.ExecuteNonQuery(System.String)">
+            <summary>
+            Executa uma instrução sql que não retorna resultado
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.ExecuteScalar(System.String)">
+            <summary>
+            Executa uma instrução sql que retorna apenas a primeira coluna da primeira linha
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <returns>Retorna a primeira coluna da primeira linha do resultado sql</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.InsertGetKey(System.String,System.String)">
+            <summary>
+            Executa um insert no banco e retorna a chave primária criada pelo mesmo
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <param name="strNmColuna">Nome da coluna que é a chave primária da tabela</param>
+            <returns>Retorna um long contendo a chave do registro que foi criado</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.InsertGetInt32Key(System.String,System.String)">
+            <summary>
+            Executa um insert no banco e retorna a chave primária criada pelo mesmo
+            </summary>
+            <param name="strSql">Instrução sql a ser executada</param>
+            <param name="strNmColuna">Nome da coluna que é a chave primária da tabela</param>
+            <returns>Retorna um Int32 contendo a chave do registro que foi criado</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.AddParameter(System.String,System.Object)">
+            <summary>
+            Adiciona um parâmetro para a próxima instrução SQL utilizando o provider dinâmico
+            </summary>
+            <param name="pName">Nome do parâmetro. Não utilize ?, @ ou outro prefixo para o nome do parâmetro, Isto será feito dinamicamente.</param>
+            <param name="pVal">Valor do parâmetro</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.GetSqlParam(System.String)">
+            <summary>
+            Retorna um parâmetro para ser concatenado na string SQL com o prefixo do provider para Parameters
+            </summary>
+            <param name="pName">Nome do DbParameter</param>
+            <returns>String a ser concatenada no SQL que representa esse parâmetro</returns>
+        </member>
+        <member name="M:Smart.Database.DbConn.BeginTransaction(System.Data.IsolationLevel)">
+            <summary>
+            Inicia uma transação
+            </summary>
+            <param name="isoLvl">Nível de isolamento da transação</param>
+        </member>
+        <member name="M:Smart.Database.DbConn.BeginTransaction">
+            <summary>
+            Inicia uma transação com o nível de isolamento padrão do banco.
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.Commit">
+            <summary>
+            Efetiva todas as alterações feitas no banco de dados
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.Rollback">
+            <summary>
+            Desfaz todas as alterações feitas no banco de dados
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.Dispose">
+            <summary>
+            Destrói todas as variáveis utilizadas pela classe
+            </summary>
+        </member>
+        <member name="M:Smart.Database.DbConn.BuildConnString">
+            <summary>
+            Método abstrato que deve conter a lógica para buscar a string de conexão
+            </summary>
+            <returns>String de conexão</returns>
+        </member>
+        <member name="P:Smart.Database.DbConn.ConnectionString">
+            <summary>
+            String de conexão sendo usada atualmente pela classe
+            </summary>
+        </member>
+        <member name="P:Smart.Database.DbConn.Connection">
+            <summary>
+            Objeto de conexão atual
+            </summary>
+        </member>
+        <member name="P:Smart.Database.DbConn.Transaction">
+            <summary>
+            Objeto de transação atual
+            </summary>
+        </member>
+        <member name="P:Smart.Database.DbConn.ProviderName">
+            <summary>
+            Namespace do provedor de acesso ao banco. (System.Data.SqlClient, System.Data.OleDb)
+            </summary>
+        </member>
+        <member name="P:Smart.Database.DbConn.InTransaction">
+            <summary>
+            Permite saber se o objeto possui uma transação em andamento
+            </summary>
+        </member>
+        <member name="P:Smart.Database.DbConn.Parametros">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Smart.Database.SQL.Security">
+            <summary>
+            Relacionada à setenças SQL seguras para prevenir exploits como SQL-Injection
+            </summary>
+        </member>
+        <member name="M:Smart.Database.SQL.Security.EscapeSingleQuotes(System.String)">
+            <summary>
+            Troca aspas simples por aspas duplas
+            </summary>
+            <param name="strTextToClear">Texto a ser substituído</param>
+            <returns>Texto apropriado para inserção no banco</returns>
+        </member>
+        <member name="T:Smart.Database.SQL.TipoBanco">
+            <summary>
+            Tipos de banco suportados pelo Translator
+            </summary>
+        </member>
+        <member name="F:Smart.Database.SQL.TipoBanco.SqlServer">
+            <summary>
+            Banco de dados SQL Server
+            </summary>
+        </member>
+        <member name="F:Smart.Database.SQL.TipoBanco.Oracle">
+            <summary>
+            Banco de dados Oracle
+            </summary>
+        </member>
+        <member name="T:Smart.Database.SQL.TipoConversaoData">
+            <summary>
+            Formatos de conversão de data/hora
+            </summary>
+        </member>
+        <member name="F:Smart.Database.SQL.TipoConversaoData.SomenteData">
+            <summary>
+            Apenas data dd/mm/aaaa
+            </summary>
+        </member>
+        <member name="F:Smart.Database.SQL.TipoConversaoData.DataEHora">
+            <summary>
+            Data e Hora dd/mm/aaaa hh:mm:ss
+            </summary>
+        </member>
+        <member name="F:Smart.Database.SQL.TipoConversaoData.SomenteHora">
+            <summary>
+            Apenas Hora hh:mm:ss
+            </summary>
+        </member>
+        <member name="T:Smart.Database.SQL.Translator">
+            <summary>
+            Traduz comandos SQL para o tipo de banco de dados atual
+            </summary>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.#ctor(System.String)">
+            <summary>
+            Construtor
+            </summary>
+            <param name="strProviderName">Namespace do Tipo de banco a ser utilizado como base para tradução. Ex: System.Data.SqlClient, System.Data.OracleClient...</param>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.ConverterStrParaData(System.String,Smart.Database.SQL.TipoConversaoData)">
+            <summary>
+            Converte o valor para tipo data.
+            </summary>
+            <param name="strData">valor da data em String</param>
+            <param name="tpConversao">Tipo de conversão de data</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.ConverterCampoDataParaStr(System.String,Smart.Database.SQL.TipoConversaoData)">
+            <summary>
+            Retorna uma String com o campo no formato da data escolhido. SqlServer e Oracle
+            </summary>
+            <param name="strNomeCampo">Campo Data</param>
+            <param name="tpConversao">Tipo de conversão de data</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.ConverterDataParaStr(System.String,Smart.Database.SQL.TipoConversaoData)">
+            <summary>
+            Retorna uma String com a data no formato String. SqlServer e Oracle
+            </summary>
+            <param name="strData">Campo Data</param>
+            <param name="tpConversao">Tipo de conversão de data</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.ConverterCampoStrParaData(System.String,Smart.Database.SQL.TipoConversaoData)">
+            <summary>
+            Retorna uma String com o campo no formato da data escolhido. SqlServer e Oracle
+            </summary>
+            <param name="strNomeCampo">Campo Data</param>
+            <param name="tpConversao">Tipo de conversão de data</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.MontarSqlPaginado(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retorna o comando SQL com paginação
+            </summary>
+            <remarks>
+            Não utilizar as palavras-chave do SQL (FROM, SELECT, WHERE e etc)
+            </remarks>
+            <param name="strCampoChave">Campo chave primaria. Ex: USUARIO.cd_usuario</param>
+            <param name="strCampos">Campos que serão retornados na consulta. Ex: USUARIO.cd_usuario, USUARIO.ds_usuario</param>
+            <param name="strTabelas">Tabelas envolvidas. Ex: USUARIO, DOCUMENTO</param>
+            <param name="strCondicao">Condições de validação. Ex: USUARIO.cd_usuario = 1 AND DOC.cd_documento = 3</param>
+            <param name="strOrdenacao">Campos de ordenação. Ex: USUARIO.cd_usuario, DOC.ds_documento ASC</param>
+            <param name="intPaginaAtual">Número da página atual. Ex: 1</param>
+            <param name="intRegistrosPorPagina">Número de registros por página. Ex: 10.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.MontarSqlPaginado(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Retorna o comando SQL com paginação
+            </summary>
+            <remarks>
+            Não utilizar as palavras-chave do SQL (FROM, SELECT, WHERE e etc)
+            </remarks>
+            <param name="strCampos">Campos que serão retornados na consulta. Ex: USUARIO.cd_usuario, USUARIO.ds_usuario</param>
+            <param name="strTabelas">Tabelas envolvidas. Ex: USUARIO, DOCUMENTO</param>
+            <param name="strCondicao">Condições de validação. Ex: USUARIO.cd_usuario = 1 AND DOC.cd_documento = 3</param>
+            <param name="strOrdenacao">Campos de ordenação. Ex: USUARIO.cd_usuario, DOC.ds_documento ASC</param>
+            <param name="intPaginaAtual">Número da página atual. Ex: 1</param>
+            <param name="intRegistrosPorPagina">Número de registros por página. Ex: 10.</param>
+            <returns>Comando SQL preparado para paginação</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.RetFuncaoSql(System.String)">
+            <summary>
+            Retorna uma String com o nome da função no formato correto para cada banco. SqlServer e Oracle.
+            </summary>
+            <param name="nomeFuncao">Nome da função</param>
+            <returns>String</returns>
+        </member>
+        <member name="M:Smart.Database.SQL.Translator.RetCodigoErro(System.Data.Common.DbException)">
+            <summary>
+            Retorna o código do erro. Erro 547: restrição de integridade violada - registro filho localizado.
+            </summary>
+            <param name="dbEx">Objecto DbException</param>
+            <returns>String</returns>
+        </member>
+        <member name="P:Smart.Database.SQL.Translator.Concatenar">
+            <summary>
+            Retorna o caracter de concatenação.
+            </summary>
+        </member>
+        <member name="P:Smart.Database.SQL.Translator.DataAtual">
+            <summary>
+            Propriedade que retorna o comando SQL para a data atual do banco de dados. SQL Server ou Oracle.
+            </summary>
+            <returns>String</returns>
+        </member>
+    </members>
+</doc>

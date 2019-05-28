@@ -1,0 +1,5 @@
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb

@@ -1,0 +1,12 @@
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.pdb
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Smart.Database.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.pdb
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.csprojResolveAssemblyReference.cache
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Exercicio.Conexao.pdb
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\bin\Debug\Smart.Database.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.csprojResolveAssemblyReference.cache
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio.Conexao\obj\Debug\Exercicio.Conexao.pdb

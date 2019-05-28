@@ -1,0 +1,38 @@
+use bdGerenCont
+
+
+CREATE TABLE CONTATO(
+cd_contato int IDENTITY(1,1) CONSTRAINT PK_Contato PRIMARY KEY,
+ds_nome_contato varchar(30) not null,
+ds_email_contato varchar(30)not null,
+dt_nasci_contato date not null,
+ds_cpf varchar(20) not null,
+ds_sexo varchar(30),
+ds_cidade varchar(30),
+cd_estado int,
+ds_endereco varchar(200),
+CONSTRAINT FK_idcontato FOREIGN KEY(cd_estado) REFERENCES ESTADO (cd_contato)
+)
+
+
+CREATE TABLE Estado (
+cd_estado int IDENTITY(1,1) CONSTRAINT PK_estado PRIMARY KEY,
+uf_estado varchar(2),
+)
+
+insert Contato(nome_contato,email_contato,nasci_contato,cpf_contato,sexo_contato,cidade_contato)values('vinicius','vini09nascimeto@gmail.com','12/20/1990','104085','masculino','joinville')
+
+insert Estado(uf_estado)values('sc');
+
+insert Contato(nome_contato,email_contato,nasci_contato,cpf_contato,sexo_contato,cidade_contato)values('ricardo','vini09nascimeto@gmail.com','12/20/1990','104085','masculino','joinville')
+
+insert Estado(uf_estado)values('sp');
+
+
+
+select *from Estado
+select *from contato
+
+
+delete from Contato
+delete from Estado

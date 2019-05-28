@@ -1,0 +1,22 @@
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.csprojResolveAssemblyReference.cache
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.Form1.resources
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.Properties.Resources.resources
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.csproj.GenerateResource.Cache
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.WinApp.exe
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.WinApp.pdb
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Smart.Database.dll
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.DbConnection.dll
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.DbConnection.pdb
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.exe
+D:\Projetos\TesteCaio\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.exe
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.WinApp.exe
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.WinApp.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Smart.Database.dll
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.DbConnection.dll
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\bin\Debug\Tutorial.DbConnection.pdb
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.csprojResolveAssemblyReference.cache
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.Form1.resources
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.Properties.Resources.resources
+\\cpu-600a\ARQUITETURA\TREINAMENTO 4.0\CAPÍTULOS\7 - BANCO DE DADOS\TutorialBancoDeDados\Tutorial.WinApp\obj\Debug\Tutorial.WinApp.csproj.GenerateResource.Cache

@@ -1,0 +1,21 @@
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll.config
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+C:\Users\1111007637\Downloads\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+D:\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\bin\exercicio3.pdb
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.csprojResolveAssemblyReference.cache
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.dll
+\\ricoh\DESENVOLVIMENTO\vinicius.nascimento\vinicius\exercicio3- atualizado\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\exercicio3\obj\Debug\exercicio3.pdb

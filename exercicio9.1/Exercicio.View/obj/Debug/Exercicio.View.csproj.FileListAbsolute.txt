@@ -1,0 +1,9 @@
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Exercicio.View.dll
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Exercicio.View.pdb
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Exercicio.Model.dll
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Smart.Database.dll
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Smart.Model.dll
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Exercicio.Model.pdb
+D:\vinicius\exercicio9.1\Exercicio.View\bin\Debug\Smart.Database.xml
+D:\vinicius\exercicio9.1\Exercicio.View\obj\Debug\Exercicio.View.dll
+D:\vinicius\exercicio9.1\Exercicio.View\obj\Debug\Exercicio.View.pdb

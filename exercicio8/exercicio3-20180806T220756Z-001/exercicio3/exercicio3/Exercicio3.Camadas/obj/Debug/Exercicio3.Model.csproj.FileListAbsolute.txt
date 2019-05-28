@@ -1,0 +1,5 @@
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio3.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Exercicio3.Model.pdb
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\bin\Debug\Smart.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio3.Model.dll
+D:\vinicius\exercicio8\exercicio3-20180806T220756Z-001\exercicio3\exercicio3\Exercicio3.Camadas\obj\Debug\Exercicio3.Model.pdb

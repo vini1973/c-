@@ -1,0 +1,25 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TelaPadrao.master.cs" 
+	Inherits="SmartShare.Web.TelaPadrao.Gerenciamento.SmartControls_TelaPadrao" %>
+<%@ Register Src="Header.ascx" TagName="Header" TagPrefix="uc1" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title>Untitled Page</title>
+	<link href="Styles/telaPadrao.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<form id="form1" runat="server">
+		<asp:ScriptManager ID="ScriptManager1" runat="server" />
+		<div class="contemTudo" id="divContemTudo">
+			<uc1:Header ID="Header1" runat="server" />
+			<div class="contemCentro">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+				</asp:ContentPlaceHolder>
+			</div>
+			<b class="cantoArredondadoInferiorPrincipal"><b class="canto5"><b></b></b><b class="canto4">
+				<b></b></b><b class="canto3"></b><b class="canto2"></b><b class="canto1"></b></b>
+		</div>
+	</form>
+</body>
+</html>

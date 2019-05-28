@@ -1,0 +1,315 @@
+<html> 
+    
+    <head>
+      
+            <title>Ficha cadastral </title>
+             <script>
+                 var it = null;
+
+                 function beginEditUser(i) {
+
+                     this.it = i;
+
+
+                     var nome1 = document.getElementById("tabelaid").rows[i].cells[1].innerHTML;
+                     var nome2 = document.getElementById("tabelaid").rows[i].cells[2].innerHTML;
+                     var nome3 = document.getElementById("tabelaid").rows[i].cells[3].innerHTML;
+                     var nome4 = document.getElementById("tabelaid").rows[i].cells[4].innerHTML;
+                     var nome5 = document.getElementById("tabelaid").rows[i].cells[5].innerHTML;
+                     var nome6 = document.getElementById("tabelaid").rows[i].cells[6].innerHTML;
+                     var nome7 = document.getElementById("tabelaid").rows[i].cells[7].innerHTML;
+                     var nome8 = document.getElementById("tabelaid").rows[i].cells[8].innerHTML;
+                     
+                     document.getElementById("nomeid").value = nome1;
+                     document.getElementById("emailid").value = nome2;
+                     document.getElementById("nasciid").value = nome3;
+                     document.getElementById("sexoid").value = nome4;
+                     document.getElementById("cpfid").value = nome5;
+                     document.getElementById("cidadeid").value = nome6;
+                     document.getElementById("estadoid").value = nome7;
+                     document.getElementById("enderecoid").value = nome8;
+
+                     var nomebutton = "Salvar Alteração";
+                     document.getElementById('adicionarBotao').innerHTML = nomebutton;
+                     document.getElementById('adicionarBotao').setAttribute('onclick','editar('+i+')');
+                     
+                 
+                 }
+
+                 function deleteRow(i) {
+
+                     var g = document.getElementById("adicionarBotao").innerHTML
+                     
+                     if ( g == 'Salvar') {
+
+
+                         var r = confirm("Confirme exclusão do Registro");
+                         if (r == true) {
+
+                             document.getElementById('tabelaid').deleteRow(i);
+                         }
+                     } else {
+                         alert("Não é possivel apagar pois os cadastros estão sendo editados");
+                     }
+                     
+                 }
+
+                 function adicionarItem() {
+
+                    var opcao = document.createElement('td');
+                    var nome = document.getElementById("nomeid").value;
+                    var email = document.getElementById("emailid").value;
+                    var nasci = document.getElementById("nasciid").value;
+                    var sexo = document.getElementById("sexoid").value;
+                    var cpf = document.getElementById("cpfid").value;
+                    var cidade = document.getElementById("cidadeid").value;
+                    var estado = document.getElementById("estadoid").value;
+                    var endereco = document.getElementById("enderecoid").value;
+                    if (validaDados()) {
+                        var r = confirm("Deseja salvar");
+                        if (r) {
+                            var table = document.getElementById("tabelaid");
+                            var row = table.insertRow();
+                            var cell1 = row.insertCell(0);
+                            var cell2 = row.insertCell(1);
+                            var cell3 = row.insertCell(2);
+                            var cell4 = row.insertCell(3);
+                            var cell5 = row.insertCell(4);
+                            var cell6 = row.insertCell(5);
+                            var cell7 = row.insertCell(6);
+                            var cell8 = row.insertCell(7);
+                            var cell9 = row.insertCell(8);
+                            cell1.innerHTML = "<input type='button' value='Delete' onclick='deleteRow(this.parentNode.parentNode.rowIndex)'>"
+                                + "<button id='Editar' onclick='beginEditUser(this.parentNode.parentNode.rowIndex)' type='button'>Editar</button>";
+                            cell2.innerHTML = nome;
+                            cell3.innerHTML = email;
+                            cell4.innerHTML = nasci;
+                            cell5.innerHTML = sexo;
+                            cell6.innerHTML = cpf;
+                            cell7.innerHTML = cidade;
+                            cell8.innerHTML = estado;
+                            cell9.innerHTML = endereco;
+                             
+                            limpar();
+                         }
+                     }
+                 }
+                 
+                 function limpar() {
+                     document.getElementById("nomeid").value = "";
+                     document.getElementById("emailid").value = "";
+                     document.getElementById("nasciid").value = "";
+                     document.getElementById("sexoid").value = "";
+                     document.getElementById("cpfid").value = "";
+                     document.getElementById("cidadeid").value = "";
+                     document.getElementById("estadoid").value = "";
+                     document.getElementById("enderecoid").value = "";
+                 }
+
+                 function editar(id) {
+                     
+                         var opcao = document.createElement('td');
+                         var nome = document.getElementById("nomeid").value;
+                         var email = document.getElementById("emailid").value;
+                         var nasci = document.getElementById("nasciid").value;
+                         var sexo = document.getElementById("sexoid").value;
+                         var cpf = document.getElementById("cpfid").value;
+                         var cidade = document.getElementById("cidadeid").value;
+                         var estado = document.getElementById("estadoid").value;
+                         var endereco = document.getElementById("enderecoid").value;
+                         if (validaDados()) {
+                             var r = confirm("Deseja salvar a alteração");
+                             if (r) {
+                                 document.getElementById("tabelaid").rows[id].cells[1].innerHTML = nome;
+                                 document.getElementById("tabelaid").rows[id].cells[2].innerHTML = email;
+                                 document.getElementById("tabelaid").rows[id].cells[3].innerHTML = nasci;
+                                 document.getElementById("tabelaid").rows[id].cells[4].innerHTML = sexo;
+                                 document.getElementById("tabelaid").rows[id].cells[5].innerHTML = cpf;
+                                 document.getElementById("tabelaid").rows[id].cells[6].innerHTML = cidade;
+                                 document.getElementById("tabelaid").rows[id].cells[7].innerHTML = estado;
+                                 document.getElementById("tabelaid").rows[id].cells[8].innerHTML = endereco;
+
+                                 limpar();
+
+                                 var nomebutton = "Salvar";
+                                 document.getElementById('adicionarBotao').innerHTML = nomebutton;
+
+                                 document.getElementById('adicionarBotao').setAttribute('onclick', 'adicionarItem()');
+                             }
+                         }
+                 }
+
+                 function validaDados() {
+                     var nome = document.getElementById("nomeid").value;
+                     var email = document.getElementById("emailid").value;
+                     var nasci = document.getElementById("nasciid").value;
+                     var sexo = document.getElementById("sexoid").value;
+                     var cpf = document.getElementById("cpfid").value;
+                     var cidade = document.getElementById("cidadeid").value;
+                     var estado = document.getElementById("estadoid").value;
+                     var endereco = document.getElementById("enderecoid").value;
+
+
+
+                     if (nome == "") {
+                         alert("Por favor preencha o campo nome.");
+                         return false;
+                     }
+                     if (email == "" || email.indexOf('@', 0) == -1 || email.indexOf('.', 0) == -1) {
+                         alert("E-mail invalido.") 
+                         
+                         return false;
+                     }
+                     if (nasci == "") {
+                         alert("Por favor preencha o campo Data de nascimento.");
+                         return false;
+                     }
+                     if (cpf == "") {
+                         alert("Por favor preencha o campo cpf.");
+                         return false;
+                     }
+                     else {
+                         var myRe = RegExp("([0-9]{2}[\.]?[0-9]{3}[\.]?[0-9]{3}[\/]?[0-9]{4}[-]?[0-9]{2})|([0-9]{3}[\.]?[0-9]{3}[\.]?[0-9]{3}[-]?[0-9]{2})");
+                         var testFormatoCpf = myRe.test(document.getElementById("cpfid").value);
+                         if (!testFormatoCpf) {
+                             alert("Formato do CPF invalido.");
+                             return false;
+                         }
+
+                     }
+                     
+
+                    
+
+                     return true;
+                 }
+
+            </script>
+
+        </style>
+    </head>
+    
+    <body>
+        <h1>Cadastro do site</h1>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="nome">Nome</label></td>
+                    <td><input type="text" id="nomeid" placeholder="tiago silva" required="required" name="nome"></td>
+                    <td><strong><abbr title="required">*</></strong></td>
+                </tr>
+               
+                 <tr>
+                    <td><label for="mail">E-mail:</label></td>
+                    <td><input type="email" id="emailid" placeholder="tiago@mail.com" </td>
+                    <td><strong><abbr title="required">*</></strong></td>
+                 </tr>
+                
+                 <tr>
+                    <td><label for="Data de Nascimento">Data de nascimento:</label></td>
+                    <td><input type="nasci" id="nasciid" placeholder="11/11/1911"</td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+                 </tr>
+               
+                 <tr>
+                    <td><label>Sexo</label></td>
+                    <td><label for="sexo"></label>
+                        <select name="sexo" id="sexoid">
+	                        <option>Masculido</option>
+	                        <option>Feminino</option>
+	                        <option>Outros</option>
+	                        
+                       </select>
+                    </td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+            </label></td>
+                    
+                 </tr>
+                 
+                <tr>
+                    <td><label for="cpf">CPF:</label></td>
+                    <td><input type="text" id="cpfid" placeholder="111.111.111-11"</td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+                 </tr>
+               
+                <tr>
+                    <td><label for="cidade">Cidade:</label></td>
+                    <td><input type="text" id="cidadeid" placeholder="joinville"</td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+                 </tr>
+                 
+                <tr>
+                    <td><label for="estado">Estado:</label></td>
+                    <td> 
+                        <select name="estado" id="estadoid">
+	                        <option>AC</option>
+	                        <option>AL</option>
+	                        <option>AP</option>
+	                        <option>AM</option>
+	                        <option>BA</option>
+	                        <option>CE</option>
+	                        <option>DF</option>
+	                        <option>ES</option>
+	                        <option>GO</option>
+	                        <option>MA</option>
+	                        <option>MT</option>
+	                        <option>MS</option>
+	                        <option>MG</option>
+	                        <option>PA</option>
+	                        <option>PB</option>
+	                        <option>PR</option>
+	                        <option>PE</option>
+	                        <option>PI</option>
+	                        <option>RJ</option>
+	                        <option>RN</option>
+	                        <option>RS</option>
+	                        <option>RO</option>
+	                        <option>RR</option>
+	                        <option>SC</option>
+	                        <option>SP</option>
+	                        <option>SE</option>
+	                        <option>TO</option>
+                       </select>
+                    </td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+                 </tr>
+               
+                <tr>
+                    <td><label for="endereco">Endereço:</label></td>
+                    <td><textarea rows="6" style="width: 20em" id="enderecoid" placeholder="rua santa maria numero 413 casa" ></textarea></td>
+                    <td><strong><abbr title="required">*</abbr></strong></td>
+                 </tr>
+                <tr>
+                    <td>
+                        <button id="adicionarBotao" onclick="adicionarItem()"type="button">Salvar</button></td>
+                </tr>
+                
+            </table>
+            </form>
+       
+           
+
+       
+        <table id="tabelaid" border rules ="all">
+
+            <thead>
+                <tr>
+                    <tr>
+                    <th width="101" height="40" bgcolor="#666666">Selecionar</th>
+                  <th width="101" height="40" bgcolor="#666666" >Nome </th>
+                  <th width="101" height="40" bgcolor="#666666" >email </th>
+                  <th width="101" height="40" bgcolor="#666666" >data de nascimento </th>
+                    <th width="101" height="40" bgcolor="#666666" >sexo </th>
+                    <th width="101" height="40" bgcolor="#666666" >cpf</th>
+                    <th width="101" height="40" bgcolor="#666666" >cidade</th>
+                    <th width="101" height="40" bgcolor="#666666" >estado</th>
+                    <th width="101" height="40" bgcolor="#666666" >endereco</th>
+                </tr>
+              </thead>
+              <tbody id="tabela">
+              </tbody>
+            
+            </table>
+            
+    </body>
+</html>

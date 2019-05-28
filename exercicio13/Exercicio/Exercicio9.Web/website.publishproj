@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+WARNING: DO NOT MODIFY this file, it is used for the web publish process.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{ac30321a-49e3-4609-b622-cc163a536253}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/Exercicio9.Web</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SourceWebProject>http://localhost:55357</SourceWebProject>
+    <SourceWebMetabasePath>/IISExpress/7.5/LM/W3SVC/2/ROOT</SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Exercicio.BLL\Exercicio.BLL.csproj">
+      <Project>{6589AF7D-5CAC-4138-81E3-908A8DB68BFD}</Project>
+      <Name>Exercicio.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercicio.Conexao\Exercicio.Conexao.csproj">
+      <Project>{5E26E4AE-41FA-4622-AD97-D430E89D4A41}</Project>
+      <Name>Exercicio.Conexao</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercicio.DAL\Exercicio.DAL.csproj">
+      <Project>{4181DD19-2937-4E97-9D12-83AA95EE8B78}</Project>
+      <Name>Exercicio.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercicio.Model\Exercicio.Model.csproj">
+      <Project>{862B0BCE-97AF-4A7D-AD6D-CA838C2A7FAF}</Project>
+      <Name>Exercicio.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Exercicio.View\Exercicio.View.csproj">
+      <Project>{4AD6CEB6-CAB0-48A8-8510-15C2B7AB0FBE}</Project>
+      <Name>Exercicio.View</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TelerikReport\TelerikReport.csproj">
+      <Project>{D9F57963-50C7-4EA0-8148-6B749A89B10D}</Project>
+      <Name>TelerikReport</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>
